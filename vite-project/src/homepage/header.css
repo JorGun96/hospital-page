@@ -1,0 +1,38 @@
+.top-header {
+  background-color: #2a75bb;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 185vh;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.left-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.username {
+  font-weight: 500;
+}
+
+.logout-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.logout-button:hover svg {
+  fill: #f44336;
+}

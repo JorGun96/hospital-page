@@ -1,0 +1,79 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #dcd2d2;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.form-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-left label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.form-left input,
+.form-left select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.form-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.foto-pasien {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 10px 0 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px 0;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #28a745;
+}
+
+.red {
+  background-color: #dc3545;
+}

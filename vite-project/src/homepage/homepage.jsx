@@ -1,13 +1,19 @@
 import React from 'react'
 import './homepage.css'
+import Sidebar from './Sidebar'
+import Header from './Header'
+import { Outlet } from 'react-router-dom'
 
 function homepage() {
   return (
     <>
-    <div className="welcome">
-      <h1>Selamat Datang di Homepage</h1>
-      <p>Ini halaman setelah login berhasil.</p>
-    </div>
+      <div className="app-container">
+        <Sidebar />
+        <div className="main-content">
+          <Header />
+          <Outlet />
+        </div>
+      </div>
     </>
   )
 }

@@ -1,0 +1,81 @@
+.rekam-container {
+    display: flex;  
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.rekam-title{
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.rekam-control{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.search-input{
+    padding: 5px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.filter-group{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.select-filter{
+    padding: 5px;
+    flex: 1;
+    max-width: 150px;
+}
+
+.btn-tambah{
+    padding: 6px 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.rekam-control input, .rekam-control select {
+    padding: 10px;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.foto-pasien{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn-edit, .btn-delete {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 6px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

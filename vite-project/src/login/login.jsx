@@ -45,7 +45,7 @@ const login = () => {
                 <div className="input">
                     <label>Password</label>
                     <img src={PasswordIcon} alt="" />
-                    <input type="text" 
+                    <input type="password" 
                     placeholder='Password' 
                     value={password} 
                     onChange={(e) => setPassword(e.target.value)}/>

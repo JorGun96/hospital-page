@@ -1,4 +1,11 @@
-.welcome{
-    text-align: 'center'; 
-    padding: '40px'
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+  display: flex;
+  flex-direction: column;
 }
